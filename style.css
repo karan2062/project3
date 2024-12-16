@@ -1,0 +1,671 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1 {
+    font-size: 1.7rem;
+    color: #3A446B;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.links a {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #71768A;
+    text-decoration: none;
+}
+
+.button {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button {
+    font-size: 1rem;
+    padding: 5px 70px;
+    color: white;
+    border: none;
+    background-color: #101B48;
+}
+
+#page-1 {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-1 .page1-part1 {
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.page1-part1 h1 {
+    font-size: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 100px;
+}
+
+.page1-part1 p {
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 100px;
+}
+
+.button-container1 {
+    height: 100px;
+    width: 100%;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.button-container1 #bt1 {
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    background-color: #101B48;
+    color: white;
+    border: none;
+}
+
+.button-container1 #bt2 {
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border: 2px solid #101B48;
+    margin-right: 110px;
+}
+
+.page1-part2 {
+    height: 80%;
+    width: 30%;
+}
+
+.page1-part2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#page-2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.page2-part1 {
+    height: 70vh;
+    width: 40%;
+}
+
+.page2-part1-text-part {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.page2-part1-text-part h2 {
+    padding-left: 110px;
+    font-size: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page2-part1-text-part p {
+    padding-left: 110px;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page2-part1-icon {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    padding-left: 110px;
+}
+
+.p1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.p1 i {
+    font-size: 2.5rem;
+}
+
+.p1 h3 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1 p {
+    text-align: start;
+}
+
+.page2-part2 {
+    height: 70vh;
+    width: 40%;
+    background-color: black;
+}
+
+.page2-part2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+#page-3 {
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.part1 {
+    height: 50vh;
+    width: 100%;
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part1-contain {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-part {
+    height: 100%;
+    width: 35%;
+}
+
+.image-part img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.textual-part {
+    height: 100%;
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+}
+
+.textual-part h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6rem;
+    text-align: start;
+    padding: 10px;
+}
+
+.textual-part p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: start;
+    padding: 10px;
+}
+
+.textual-part button {
+    width: 50%;
+    margin-left: 100px;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #101B48;
+    border: none;
+    color: white;
+}
+
+#page4 {
+    height: 80vh;
+    width: 100%;
+    background-color: #F3F6FF;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page4-container {
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.part1-4 {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.part1-4 h1 {
+    font-size: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0E112E;
+}
+
+.part1-4 p,
+.part3-4 p {
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 0px 30px;
+    color: #99A1BA;
+}
+
+.part3-4 {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.part3-4 button {
+    width: 30%;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #101B48;
+    border: none;
+    color: white;
+}
+
+footer {
+    height: 40vh;
+    width: 100%;
+    background-color: #E7ECFF;
+}
+
+.footer-top {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-top button {
+    height: 50px;
+    width: 250px;
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #101B48;
+    border: none;
+    color: white;
+}
+
+.footer-bottom{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.footer-top h3{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-last{
+    height: 100%;
+    width: 80%;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons i{
+    font-size: 1.2rem;
+    color: #AFB6BC;
+}
+@media (max-width:600px) {
+    .logo h1 {
+        padding-left: 50px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .button {
+        height: 100%;
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    #page-1 {
+        height: 150vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #page-1 .page1-part1 {
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .page1-part1 h1 {
+        font-size: 2.5rem;
+        margin-left: 30px;
+    }
+
+    .page1-part1 p {
+        font-size: 1rem;
+        margin: 30px;
+    }
+
+    .page1-part2 {
+        height: 70vh;
+        width: 90%;
+    }
+
+    .page1-part2 img {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    .button-container1 {
+        height: 100px;
+        width: 100%;
+        padding-left: 30px;
+        gap: 10px;
+    }
+
+    .button-container1 #bt1 {
+        font-size: 1rem;
+    }
+
+    .button-container1 #bt2 {
+        font-size: 1rem;
+        margin-right: 30px;
+    }
+
+    #page-2 {
+        height: 150vh;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .page2-part1 {
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .page2-part1-text-part h2 {
+        padding: 0px 30px;
+    }
+
+    .page2-part1-text-part p {
+        padding: 0px 30px;
+    }
+
+    .page2-part1-icon {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        padding: 0px 30px;
+    }
+
+    .p1 {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .page2-part2 {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .page2-part2 img {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    #page-3 {
+        height: 350vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .part1 {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .part1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .part1-contain {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .image-part {
+        height: 50vh;
+        width: 90%;
+    }
+
+    .image-part img {
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    .textual-part {
+        margin-top: 30px;
+        height: 100%;
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .textual-part h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        text-align: start;
+        padding: 10px;
+    }
+
+    .textual-part p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        text-align: start;
+        padding: 10px;
+    }
+
+    #page4 {
+        height: 80vh;
+        width: 100%;
+        background-color: #F3F6FF;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page4-container {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .part1-4 h1 {
+        font-size: 1.5rem;
+    }
+
+    .part1-4 p,
+    .part3-4 p {
+        font-size: 0.8rem;
+    }
+
+    .part3-4 button {
+        width: 40%;
+    }
+    footer {
+        height: 100vh;
+        width: 100%;
+        background-color: #E7ECFF;
+    }
+    
+    .footer-top {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-self: start;
+        flex-direction: column;
+    }
+    
+    .footer-top button {
+        height: 50px;
+        width: 250px;
+        padding: 10px 0px;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #101B48;
+        border: none;
+        color: white;
+    }
+    
+    .footer-bottom{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     
+    .footer-top h3{
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .footer-last{
+        height: 100%;
+        width: 80%;
+        border-top: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .icons{
+        height: 100%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .icons i{
+        font-size: 1.2rem;
+        color: #AFB6BC;
+    }
+}
